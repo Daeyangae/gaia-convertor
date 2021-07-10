@@ -1,0 +1,62 @@
+:root {
+  --zero: #1d1d1d;
+  --one: #313131;
+}
+
+* {
+  font-family: monospace;
+  color: #b2b2b2;
+  background: var(--zero);
+}
+
+body {
+  background: var(--zero);
+  padding: 1rem;
+}
+
+select {
+  background: var(--zero);
+  border: 0px solid transparent;
+}
+
+#check {
+  cursor: pointer;
+}
+
+.text-line {
+    border-radius: 7px;
+    background: var(--one);
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 8px 10px;
+    margin: 2px;
+}
+
+button {
+  border: 0px solid transparent;
+  border-radius: 7px;
+  background: var(--one);
+}
+
+.mainBox {
+  display: grid;
+  grid-template-columns: 15rem 13rem 15rem 1rem 12rem;
+}
+
+#currency {
+  text-align: center;
+}
+
+#enter {
+  padding: 7px;
+  margin-left: 25px;
+}
+
+.emoji {
+  font-size: 25px;
+}
